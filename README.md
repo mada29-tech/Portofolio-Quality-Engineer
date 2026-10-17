@@ -10,15 +10,17 @@ Pengujian black-box untuk aplikasi Android, e-commerce, dan web kesehatan.
  Proyek | Platform | Test case | Lulus / Gagal | Tools | Temuan utama |
  |---|---|---|---|---|---|
  | [Hutan Ku](./01-hutan-ku) | Android | 40 | 36 / 4 | TestComplete |
- | [Ikan Hias](./02-ikan-hias) | Web | 23 | 17 / 6 | Manual |
+ | [Ikan Hias](./02-ikan-hias) | Web | 23 | 18 / 5 | Manual |
  | [Kontrol Ibu Hamil](./03-ibu-hamil) | Web | 6 | 6 / 0 | Manual |
- | [Total](./04-total) | Test case 69 | Lulus 59 / Gagal 10 | 
+ | [Total](./04-total) | Test case 69 | Lulus 60 / Gagal 9 | 
 
  ## Temuan Utama
- |Ikan Hias (6 defect) |
+ |Ikan Hias (5 defect) |
  1. Data Pekerja: tombol Detail tidak merespons saat diklik.
  2. Data Ikan: tombol Detail tidak merespons saat diklik.
  3. Data Pemesanan: tombol Beli tetap muncul saat pesanan belum dicentang, dan menimbulkan error saat diklik.
+ 4. Memunculkan pesan Password : tidak memunculkan pesan karena keasalan script
+ 5. Form Rekening dan foto bukti saat tidak di isi : tidak memunculkan pesan karena keasalan script
 
 |Hutan Ku (4 skenario gagal) |
 1. Input nama: tombol kembali saat popup input nama aktif.

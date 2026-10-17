@@ -12,7 +12,7 @@ Pengujian black-box untuk aplikasi Android, e-commerce, dan web kesehatan.
  | [Hutan Ku](./01-hutan-ku) | Android | 40 | 36 / 4 | TestComplete |
  | [Ikan Hias](./02-ikan-hias) | Web | 23 | 18 / 5 | Manual |
  | [Kontrol Ibu Hamil](./03-ibu-hamil) | Web | 6 | 6 / 0 | Manual |
- | [Total](./04-total) | Test case 69 | Lulus 60 / Gagal 9 | 
+ | [Total](./04-total) |--------|Test case 69 | Lulus 60 / Gagal 9 | 
 
  ## Temuan Utama
  |Ikan Hias (5 defect) |
